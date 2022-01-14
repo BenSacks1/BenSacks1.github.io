@@ -1,0 +1,160 @@
+.navbar ul{
+    margin:0;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(17, 59, 245);
+
+
+}
+
+.navbar ul li {
+    display: inline;
+    
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: honeydew;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    font-size: 25px;
+}
+
+.navbar ul a:hover{
+        color: khaki;
+        background: rgb(15, 15, 15);
+    }
+
+    .navbar {
+        background-color: rgb(29, 25, 233);
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box1 {
+    flex: 1;
+}          
+.box2 {
+    flex: 1;
+}
+
+
+.boxhd h1 {
+    text-align: center;
+}
+
+.box-foot{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.foot-list ul li a{
+    color: white;
+    text-decoration: none;   
+}
+.foot-list ul {
+    list-style-type: none;
+}
+
+.foot-list{
+    display: inline-block;
+    width: 33%;
+}
+
+.foot-last p{
+    display: inline-block;
+    width: 49%;
+} 
+
+.text2{
+    text-align: right;
+}
+
+.foot-last{
+    background-color: #273443;
+}
+.box4{
+    background-image: url(sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+    padding-bottom: 200px;
+    color: blanchedalmond;
+}
+
+
+.navbar{
+    box-shadow: 10px 5px black;
+}
+
+img {
+    box-shadow: 10px 5px black;
+}
+body{
+    background-color:gray;
+}
+.pic{
+    text-align: center;   
+    background-image: url(sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+    padding-bottom: 200px;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+.aboutbody{
+    background-color:rgb(252, 250, 250);
+
+}
+
+.contactbody{
+    background-color:rgb(219, 214, 218); 
+}
+
+.workbody{
+    background-color:rgb(192, 149, 9);  
+}
+    
+.contact-form {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dedor{
+    text-align: center;
+}
+
+
+.pic-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.boxpic {
+    flex: 1;
+    
+}
+
+.boxpic{
+    width: 50px;
+
+}
